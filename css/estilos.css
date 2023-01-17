@@ -14,12 +14,12 @@ header
 {
 	border: 1px solid red;
 	background: #343B54;
-	color: white;
+	color: #FFFFFF;
 }
 
 header h1
 {
-	font-size: 18px;
+	font-size: 1.125em;
 	font-weight: normal;
 }
 
