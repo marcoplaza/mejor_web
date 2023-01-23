@@ -7,7 +7,37 @@ body
 {
 	background: #EEEEEE;
 	font-family: Arial;
-	font-size: 16px;
+	font-size: 1em;
+
+}
+
+footer
+{
+	background: #22BCE0;
+	color: #FFFFFF;
+	padding: 1em;
+	text-align: center;
+
+}
+
+footer p:first-child
+{
+	margin-bottom: 0;
+}
+
+footer p:last-child
+{
+	margin-top: 0;
+}
+
+footer p:last-child:after
+{
+	content: "-":
+}
+
+footer p:last-child:before
+{
+	content: "-":
 }
 
 header
@@ -23,7 +53,7 @@ header h1
 {
 	font-size: 1.125em;
 	font-weight: normal;
-	margin: 0.5em 70px 0 0;
+	margin: 0.2em 70px 0 0;
 }
 
 header figure
@@ -50,4 +80,49 @@ header #logo img
 	margin-right: 0.5em;
 	padding-right: 0.5em;
 	width: 52px;
+}
+
+nav
+{
+	background: #80BCA3;
+	padding: 0 0.5em;	
+	position: relative;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul #publicar_nav
+{
+	position: absolute;
+	top: -0.2em;
+	right: 0;
+}
+
+nav ul #publicar_nav a
+{
+	background: #22BCE0;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-style: italic;
+	padding: 0.8em 0.5em;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+nav ul li a
+{
+	color: #FFFFFF;
+	display: block;
+	padding: 0.5em 0;
 }
